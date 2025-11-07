@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~*
+
+# VS Code
+.vscode/
+.history/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Projekt (lokalne zasoby – nie wrzucamy dużych plików)
+data/
+models/
+# jeśli chcesz trzymać puste katalogi w repo:
+# !data/.gitkeep
+# !models/.gitkeep
+
+# Logi/tymczasowe
+*.log
