@@ -29,3 +29,8 @@ models/
 
 # Logi/tymczasowe
 *.log
+
+# .gitignore
+weights/
+*.safetensors
+*.pth
